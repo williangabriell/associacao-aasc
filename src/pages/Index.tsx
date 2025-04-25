@@ -1,5 +1,5 @@
 
-import { Medicine, Users, Heart, Calendar } from "lucide-react";
+import { Stethoscope, Users, Heart, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import ServiceCard from "@/components/ServiceCard";
@@ -36,7 +36,7 @@ const Index = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <ServiceCard
-              icon={Medicine}
+              icon={Stethoscope}
               title="Atendimento Médico"
               description="Consultas e acompanhamento com profissionais voluntários"
               color="bg-ong-blue"
